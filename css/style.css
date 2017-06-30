@@ -1,0 +1,28 @@
+.safe-area {
+	height: 100vh;
+	padding-top: 1rem;
+}
+.box {
+	border: 2px solid black;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.description {
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+.feature {
+	padding-left: 15px;
+}
+
+/* Footer */
+.footer {
+	padding: 5rem 0;
+	background-color: #000;
+}
+
+.footer .row .col1 {
+	padding-left: 15px;
+}
