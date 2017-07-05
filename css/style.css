@@ -1,20 +1,67 @@
 .safe-area {
+	width: 100vw;
 	height: 100vh;
-	padding-top: 1rem;
 }
-.box {
-	border: 2px solid black;
-	width: 100%;
-	margin-bottom: 15px;
+
+/* Header */
+.header {
+	height: 110px;
+	background-color: #000;
+}
+
+.logo {
+	padding-top: 15px;
+	padding-left: 10px;
+}
+
+.nav-link {
+	color: #ff0 !important;
+	font-weight: bold;
+}
+.nav-link:hover {
+	text-decoration: underline;
+	color: blue !important;
+}
+
+.boxcall {
+	padding-top: 2rem;
+	padding-left: 3rem;
 }
 
 .description {
 	padding-top: 0px;
-	padding-left: 15px;
+	padding-left: 30px;
+	font-size: 1.7rem;
 }
 
+.link {
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+.link:hover {
+	font-size: 1.5rem;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #000;
+}
+
+/* Feature */
 .feature {
-	padding-left: 15px;
+	padding: 5rem 0;
+}
+.feature .row {
+	margin-top: 1rem;
+}
+.feature .feature-item {
+	padding: 0 1rem;
+}
+.feature .feature-item .feature-header {
+	margin-left: 1rem;
+}
+.feature .feature-item .feature-header .headline {
+	font-size: 1.5rem;
 }
 
 /* Footer */

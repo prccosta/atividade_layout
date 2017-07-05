@@ -9,21 +9,35 @@
 <body>
 	<div class="safe-area">
 		<header>
-			<div class="container">
-				<div class="row">
-					<div class="logo col-7">
-						<img src="images/logo.png" alt="Logo Rota Rio">
-					</div><!-- logo -->
-					<div class="menu col-5 d-flex flex-row">
-						<ul>
-							<li><a href="#">Home</a></li>
-							<li><a href="#">História</a></li>
-							<li><a href="#">Roteiros</a></li>
-							<li><a href="#">Contato</a></li>
-						</ul>
-					</div><!-- menu -->
-				</div><!-- row -->
-			</div><!-- container -->
+			<div class="header">
+				<div class="container">
+					<div class="row">
+					<div class="logo col-8">
+							<img src="images/logo.png" alt="Logo Rota Rio">
+						</div><!-- logo -->
+
+						<nav class="col-4 navbar navbar-toggleable-md navbar-light">
+							<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<ul class="navbar-nav mr-auto">
+									<li class="nav-item active">
+										<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">História</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Roteiros</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Contato</a>
+									</li>
+								</ul>
+							</div>
+						</nav>
+
+					</div><!-- row -->
+				</div><!-- container -->
+			</div><!-- header -->
 		</header>
 
 		<section>
@@ -32,7 +46,7 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-6">
 							<article>
-								<div class="feature-item box">
+								<div class="feature-item">
 									<header>
 										<div class="feature-header">
 											<h3 class="headline">Roteiros para Turistas</h3>
@@ -44,7 +58,7 @@
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<article>
-								<div class="feature-item box">
+								<div class="feature-item">
 									<header>
 										<div class="feature-header">
 											<h3 class="headline">Roteiros para Guias</h3>
@@ -56,7 +70,7 @@
 						</div>
 						<div class="col-lg-4 col-md-6">
 							<article>
-								<div class="feature-item box">
+								<div class="feature-item">
 									<header>
 										<div class="feature-header">
 											<h3 class="headline">Roteiros Gratuitos</h3>
@@ -67,30 +81,28 @@
 							</article>
 						</div>
 					</div><!-- row -->
+
+					<div class="row boxcall">
+						<div class="col-6 col-sm-6 col-md-10 col-lg-9">
+							<p class="description">A MELHOR EXPERIÊNCIA DA SUA VIDA NO RIO DE JANEIRO</p>
+						</div>
+						<div class="col-6 col-md-2 col-lg-3">
+							<p class="text-center"><a class="link" href="#">Saiba mais</a></p>
+						</div>
+					</div><!-- row -->
 				</div><!-- container -->
 			</div><!-- feature -->
 		</section>
 
-		<section>
-			<div class="container">
-				<div class="row box">
-					<div class="col-12 col-sm-6 col-md-10 col-lg-10">
-						<p class="description text-center">A MELHOR EXPERIÊNCIA DA SUA VIDA NO RIO DE JANEIRO</p>
-					</div>
-					<div class="col-6 col-md-2 col-lg-2">
-						<p class="description text-center"><a href="#">Saiba mais</a></p>
-					</div>
-				</div><!-- row -->
-			</div>
-		</section>
-
 		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col1 col-sm-6 col-lg-6">Copyright © 2017 Rota Rio - todos os direitos reservados</div>
-					<div class="col-sm-6 col-lg-6">Feito por <a href="http://www.blushweb.rio" target="_blank">Priscila Costa</a></div>
-				</div>
-			</div><!-- container -->
+			<div class="footer">
+				<div class="container">
+					<img src="images/social-connect.png" class="mx-auto d-block img-fluid" alt="">
+					<div class="row boxcall">
+						<div class="col12 col-sm-12 col-lg-12 text-center">Copyright © 2017 Rota Rio - todos os direitos reservados | Feito por <a href="http://www.blushweb.rio" target="_blank">Priscila Costa</a></div>
+					</div>
+				</div><!-- container -->
+			</div><!-- footer -->
 		</footer>
 	</div><!-- safe-area -->
 </body>
